@@ -1,8 +1,10 @@
 package Oct08;
 
-public class VariablesAndDataTypes {
+import java.sql.SQLOutput;
 
-    /*
+public class VariablesAndDataTypes {
+    public static void main(String[] args) {
+         /*
     Variable -> Store the value (which can be changed in the program)
 
 - A variable is a container (storage area) used to hold data.
@@ -29,19 +31,25 @@ Value they can store, Size(Range) -
 2. Reference | Non primitive | User Defined
 
      */
-    //Learned what are variables and Different types of data types in Java
+        //Learned what are variables and Different types of data types in Java
     /*
     We will start working with the data types like
     integer
     characters  a to z A to Z  can be special characters: !@#$%^&*
      */
 
-    int myNum = 5;               // Integer (whole number)
-    float myFloatNum = 5.99f;    // Floating point number
-    char myLetter = 'D';         // Character
-    boolean myBool = true;       // Boolean
-    String myText = "Hello";     // String
-    int My_Age = 34; // int can be byte, float, short, double
+        int myNum = 5;               // Integer (whole number)
+        float myFloatNum = 5.99f;    // Floating point number
+        char myLetter = 'D';         // Character
+        boolean myBool = true;       // Boolean
+        String myText = "Hello";     // String
+        int My_Age = 34; // int can be byte, float, short, double
+
+        System.out.println(myLetter);
+        System.out.println(myText);
+        System.out.println(myBool);
 
 
-}
+    }
+    }
+
