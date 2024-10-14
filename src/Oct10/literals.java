@@ -1,3 +1,5 @@
+package Oct10;
+
 public class literals {
     public static void main(String[] args) {
         boolean sukumar_is_software_engineer = true;
@@ -8,12 +10,13 @@ int abc = 12;
 
         // Binary Literal
         int binary_num = 0b1010;
-
+            System.out.println(binary_num);
         // Octal base? -> 8
         int octal = 0101; // 0101 = (0 × 8³) + (1 × 8²) + (0 × 8¹) + (1 × 8⁰) = 65
-
+            System.out.println(octal);
         // Hexadecimal Literals
         int hex = 0Xface; //base 16 color combination are in hex - #28a745
+            System.out.println(hex);
 /*
 data_type variable_name = **variable_value**
 
@@ -43,7 +46,7 @@ data_type variable_name = **variable_value**
         char c1 = 'A';
         char c2 = 'B';
         char c3 = '@';
-
+            System.out.println(c1+c2+c3);
         // Escape Char
         char new_line = '\n';
         char tab_line = '\t';
@@ -62,6 +65,6 @@ data_type variable_name = **variable_value**
         // chinese - india, japense -> Unicode
         // /u09878
 
-
+            System.out.println(c1+c11);
     }
 }
