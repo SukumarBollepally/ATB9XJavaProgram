@@ -6,15 +6,15 @@ public class OperatorsInJava {
         int a = 10;
         int b = 3;
         int sum = a + b;  // Addition: 13
-        System.out.println(a+b);
+        System.out.println(sum);
         int diff = a - b; // Subtraction: 7
-        System.out.println(a-b);
+        System.out.println(diff);
         int product = a * b; // Multiplication: 30
-        System.out.println(a*b);
+        System.out.println(product);
         int quotient = a / b; // Division: 3
-        System.out.println(a/b);
+        System.out.println(quotient);
         int remainder = a % b; // Modulus: 1
-        System.out.println(a%b);
+        System.out.println(remainder);
         int c = 5;
         c++; // Increment: c is now 6
         c--; // Decrement: c is back to 5
