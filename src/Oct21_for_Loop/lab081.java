@@ -5,12 +5,11 @@ public class lab081 {
     public static void main(String[] args) {
 
         for (int i = 0; i < 100; i++) {
-            if(i==3)
-            {
+            if (i == 3) {
                 System.out.println("THREE");
-            }
-            else
-            {
+            } else {
                 System.out.println(i);
             }
         }
+    }
+}
