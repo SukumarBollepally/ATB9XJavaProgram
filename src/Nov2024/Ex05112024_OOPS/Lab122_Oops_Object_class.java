@@ -20,10 +20,7 @@ public class Lab122_Oops_Object_class {
         System.out.println(s2);
 
 
-
-
-
-        Person p1;
+       // Person p1;
         // Person - Class Loaders - Load the class
         // p1 -> ref - null
         // Byte, Bits -> 8, 64

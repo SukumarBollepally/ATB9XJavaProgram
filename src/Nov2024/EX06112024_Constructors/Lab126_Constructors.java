@@ -36,3 +36,24 @@ public class Lab126_Constructors {
 
     }
 }
+
+class Car2 {
+    String model;
+    int year;
+
+
+
+    // Parameterized constructor
+    Car2(String model_name, int year_created) {
+        System.out.println("PC");
+        this.model = model_name;
+        this.year = year_created;
+    }
+
+    void display() {
+        System.out.println("Car2 Details -> " + this.model + " - "+ this.year);
+    }
+
+
+}
+
